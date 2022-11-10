@@ -32,10 +32,10 @@
 
 
 .footer-bloc {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
 
     @media screen and (min-width: 1200px) {
-       padding-bottom:  0;
+       margin-bottom:  0;
     }
 
 }
@@ -80,16 +80,20 @@
 
 }
 
+.footer-soc-bloc {
+margin-bottom: 60px;
+
+    @media screen and (min-width:768px) {
+        margin-bottom: 0;
+
+    }
+}
+
 .footer-soc-list {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 60px;
-
-    @media screen and (min-width:768px) {
-        margin-bottom: 0;
-        
-    }
+    
 }
 
 .footer-soc-link {
